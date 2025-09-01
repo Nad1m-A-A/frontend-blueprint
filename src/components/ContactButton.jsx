@@ -16,7 +16,7 @@ function ContactButton({
     false
   );
   const { data: whatsappMessages } = loadData(
-    "whatsappMessages.js",
+    "whatsapp-messages.js",
     "whatsappMessages"
   );
   const { serviceSlug } = useServiceSlug({

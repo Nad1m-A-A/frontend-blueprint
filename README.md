@@ -12,13 +12,13 @@ A comprehensive, production-ready React frontend application built with Vite, fe
 - **Responsive Design**: Tailwind CSS with custom styling and animations
 - **Form Handling**: Complete form system with validation using Yup
 - **Animation Library**: Framer Motion integration for smooth animations
-- **Map Integration**: Mapbox GL integration for location services
 
 ## 🏗️ Architecture Overview
 
 This application follows a modern, scalable architecture pattern with clear separation of concerns:
 
 ### Core Technologies
+
 - **React 18** with modern hooks and Suspense
 - **Vite** for fast development and optimized builds
 - **React Router v6** for client-side routing
@@ -27,6 +27,7 @@ This application follows a modern, scalable architecture pattern with clear sepa
 - **React Helmet Async** for SEO management
 
 ### Key Architectural Patterns
+
 - **Context-based State Management** for global state (language, theme)
 - **Lazy Loading** for code splitting and performance
 - **Component Composition** with reusable UI components
@@ -42,7 +43,8 @@ src/
 │   │   ├── en/              # English content
 │   │   ├── ar/              # Arabic content
 │   │   ├── config.js        # App configuration
-│   │   └── service-cases.js # Service data
+│   │   ├── contact-info.js  # Business contacts
+│   │   └── service-cases.js # Non-Translatable content
 │   ├── fonts/               # Custom fonts
 │   ├── images/              # Image assets
 │   └── styles/              # Global styles and CSS modules
@@ -75,12 +77,14 @@ src/
 The application supports both English and Arabic with RTL support:
 
 ### Language Management
+
 - **LanguageContext**: Global language state management
 - **URL-based Language Detection**: Language detection from URL paths (`/en`, `/ar`)
 - **LocalStorage Persistence**: Language preference saved locally
 - **RTL Support**: Automatic text direction switching for Arabic
 
 ### Content Structure
+
 ```
 src/assets/data/
 ├── en/                   # English content
@@ -107,17 +111,20 @@ The application features a special campaign mode for landing pages:
 ### Component Categories
 
 1. **Layout Components**
+
    - `Nav` / `CampaignNav`: Navigation bars
    - `Footer` / `CampaignFooter`: Footer components
    - `PageLogic`: Page wrapper with SEO and routing logic
 
 2. **UI Components**
+
    - `Cards`: Various card layouts
    - `Tabs`: Tabbed interfaces
    - `FloatingButtons`: Persistent action buttons
    - `ProgressiveImage`: Optimized image loading
 
 3. **Form Components**
+
    - `Form`: Complete form system
    - `Input`: Styled input components
    - `Button`: Action buttons
@@ -131,11 +138,13 @@ The application features a special campaign mode for landing pages:
 ## 🔧 Configuration
 
 ### Vite Configuration
+
 - **Path Aliases**: Clean import paths with `@` prefixes
 - **Asset Handling**: Support for fonts and images
 - **Build Optimization**: Configured for production builds
 
 ### App Configuration (`src/assets/data/config.js`)
+
 ```javascript
 export const BASE = "/";
 export const DOMAIN = "companyname";
@@ -146,28 +155,33 @@ export const CAMPAIGNS_LIST = ["service"];
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 16+ 
+
+- Node.js 16+
 - npm or yarn
 
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone <repository-url>
    cd <project-directory>
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server:**
+
    ```bash
    npm run dev
    ```
 
 4. **Build for production:**
+
    ```bash
    npm run build
    ```
@@ -196,6 +210,7 @@ export const CAMPAIGNS_LIST = ["service"];
 ### Content Management
 
 All content is managed through JavaScript files in the `data` directory:
+
 - **Centralized**: All content in one place
 - **Type-safe**: JavaScript objects with clear structure
 - **Version controlled**: Content changes tracked in git
@@ -204,11 +219,13 @@ All content is managed through JavaScript files in the `data` directory:
 ## 🎨 Styling
 
 ### Tailwind CSS
+
 - Utility-first CSS framework
 - Custom configuration in `tailwind.config.js`
 - Responsive design built-in
 
 ### Custom Styles
+
 - Global styles in `src/assets/styles/index.css`
 - CSS modules for component-specific styles
 - Custom fonts and animations
@@ -223,12 +240,14 @@ All content is managed through JavaScript files in the `data` directory:
 ## 🧪 Development Best Practices
 
 ### Code Organization
+
 - **Feature-based Structure**: Components grouped by feature
 - **Custom Hooks**: Reusable logic in custom hooks
 - **Context Pattern**: Global state management
 - **Lazy Loading**: Performance optimization
 
 ### Performance
+
 - **Code Splitting**: Automatic code splitting with React.lazy
 - **Asset Optimization**: Optimized images and fonts
 - **Bundle Analysis**: Built-in bundle analysis tools
@@ -236,6 +255,7 @@ All content is managed through JavaScript files in the `data` directory:
 ## 📦 Dependencies
 
 ### Core Dependencies
+
 - `react` & `react-dom` - React framework
 - `react-router-dom` - Client-side routing
 - `react-helmet-async` - SEO management
@@ -244,6 +264,7 @@ All content is managed through JavaScript files in the `data` directory:
 - `yup` - Form validation
 
 ### Development Dependencies
+
 - `vite` - Build tool and dev server
 - `@vitejs/plugin-react` - React plugin for Vite
 - `eslint` - Code linting
@@ -264,6 +285,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🆘 Support
 
 For support and questions:
+
 - Create an issue in the repository
 - Check the documentation
 - Review the code examples

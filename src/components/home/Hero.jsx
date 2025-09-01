@@ -7,7 +7,10 @@ import hero_img1 from "@images/home/home_hero1.webp";
 
 const Hero = () => {
   const { data: headings } = loadData("home/headings.js", "headings");
-  const { data: selectOptions } = loadData("selectOptions.js", "selectOptions");
+  const { data: selectOptions } = loadData(
+    "select-options.js",
+    "selectOptions"
+  );
   const hero_images = useMemo(
     // () => [hero_img1, hero_img2, hero_img3, hero_img4],
     () => [hero_img1],
