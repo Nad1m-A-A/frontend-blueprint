@@ -1,0 +1,17 @@
+.slider {
+  animation: slide 30s linear infinite;
+  width: max-content;
+}
+
+.slider.pause {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 4px));
+  }
+}

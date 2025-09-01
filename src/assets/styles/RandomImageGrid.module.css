@@ -1,0 +1,31 @@
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-7px) translateX(3px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.image_container {
+  animation: float 3s ease-in-out infinite;
+}
+
+.image_container:nth-child(2n) {
+  animation-delay: 0.5s;
+}
+
+.image_container:nth-child(3n) {
+  animation-delay: .3s;
+}
+
+.image_container:nth-child(4n) {
+  animation-delay: .0s;
+}
+
+.image_container:nth-child(5n) {
+  animation-delay: .5s;
+}

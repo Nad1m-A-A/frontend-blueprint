@@ -1,0 +1,41 @@
+/* English Font - Ebrima */
+@font-face {
+  font-family: "Ebrima";
+  src: url("../fonts/EBRIMA.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ebrima";
+  src: url("../fonts/EBRIMABD.TTF") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Arabic Font - GE SS TWO */
+@font-face {
+  font-family: "GE SS TWO";
+  src: url("../fonts/GE SS TWO LIGHT - [URDUFONTS.COM].OTF") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GE SS TWO";
+  src: url("../fonts/GE SS TWO MEDIUM - [URDUFONTS.COM].OTF") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GE SS TWO";
+  src: url("../fonts/GE SS TWO BOLD - [URDUFONTS.COM].OTF") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

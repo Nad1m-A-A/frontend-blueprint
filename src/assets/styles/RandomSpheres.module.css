@@ -1,0 +1,412 @@
+.random_sphere1 {
+  transform: translateY(-50%);
+  animation: wander1 65s linear infinite;
+}
+.random_sphere2 {
+  top: 15%;
+  right: 5%;
+  animation: wander1 32s ease-in-out infinite;
+}
+
+.random_sphere3 {
+  bottom: 10%;
+  left: 3%;
+  animation: wander1 35s ease-in-out infinite;
+}
+
+.random_sphere4 {
+  top: 30%;
+  left: 50%;
+  animation: wander1 40s ease-in-out infinite;
+}
+
+.random_sphere5 {
+  bottom: 20%;
+  right: 10%;
+  animation: wander1 33s ease-in-out infinite;
+}
+
+.random_sphere6 {
+  top: 60%;
+  left: 15%;
+  animation: wander1 24s ease-in-out infinite;
+}
+
+.random_sphere7 {
+  bottom: 35%;
+  right: 5%;
+  animation: wander1 42s ease-in-out infinite;
+}
+
+.random_sphere8 {
+  top: 25%;
+  right: 15%;
+  animation: wander1 35s ease-in-out infinite;
+}
+
+.random_sphere9 {
+  bottom: 50%;
+  left: 45%;
+  animation: wander1 28s ease-in-out infinite;
+}
+
+.random_sphere10 {
+  top: 10%;
+  left: 80%;
+  animation: wander1 57s ease-in-out infinite;
+}
+/* ///////////////////////// */
+
+.random_sphere21 {
+  transform: translateY(-50%);
+  animation: wander2 65s linear infinite;
+}
+.random_sphere22 {
+  top: 15%;
+  right: 5%;
+  animation: wander2 32s ease-in-out infinite;
+}
+
+.random_sphere23 {
+  bottom: 10%;
+  left: 3%;
+  animation: wander2 35s ease-in-out infinite;
+}
+
+.random_sphere24 {
+  top: 30%;
+  left: 50%;
+  animation: wander2 40s ease-in-out infinite;
+}
+
+.random_sphere25 {
+  bottom: 20%;
+  right: 10%;
+  animation: wander2 33s ease-in-out infinite;
+}
+
+.random_sphere26 {
+  top: 60%;
+  left: 15%;
+  animation: wander2 24s ease-in-out infinite;
+}
+
+.random_sphere27 {
+  bottom: 35%;
+  right: 5%;
+  animation: wander2 42s ease-in-out infinite;
+}
+
+.random_sphere28 {
+  top: 25%;
+  right: 15%;
+  animation: wander2 35s ease-in-out infinite;
+}
+
+.random_sphere29 {
+  bottom: 50%;
+  left: 45%;
+  animation: wander2 28s ease-in-out infinite;
+}
+
+.random_sphere210 {
+  top: 10%;
+  left: 80%;
+  animation: wander2 57s ease-in-out infinite;
+}
+/* Additional sphere styles */
+.random_sphere31 {
+  transform: translateY(-50%);
+  animation: wander3 70s linear infinite;
+}
+.random_sphere32 {
+  top: 25%;
+  right: 15%;
+  animation: wander3 38s ease-in-out infinite;
+}
+
+.random_sphere33 {
+  bottom: 15%;
+  left: 8%;
+  animation: wander3 40s ease-in-out infinite;
+}
+
+.random_sphere34 {
+  top: 35%;
+  left: 55%;
+  animation: wander3 45s ease-in-out infinite;
+}
+
+.random_sphere35 {
+  bottom: 25%;
+  right: 15%;
+  animation: wander3 38s ease-in-out infinite;
+}
+
+.random_sphere36 {
+  top: 65%;
+  left: 20%;
+  animation: wander3 29s ease-in-out infinite;
+}
+
+.random_sphere37 {
+  bottom: 40%;
+  right: 10%;
+  animation: wander3 47s ease-in-out infinite;
+}
+
+.random_sphere38 {
+  top: 30%;
+  right: 20%;
+  animation: wander3 40s ease-in-out infinite;
+}
+
+.random_sphere39 {
+  bottom: 55%;
+  left: 50%;
+  animation: wander3 33s ease-in-out infinite;
+}
+
+.random_sphere310 {
+  top: 15%;
+  left: 85%;
+  animation: wander3 62s ease-in-out infinite;
+}
+
+/* Fourth set of spheres */
+.random_sphere41 {
+  transform: translateY(-50%);
+  animation: wander4 60s linear infinite;
+}
+.random_sphere42 {
+  top: 20%;
+  right: 10%;
+  animation: wander4 35s ease-in-out infinite;
+}
+
+.random_sphere43 {
+  bottom: 12%;
+  left: 5%;
+  animation: wander4 38s ease-in-out infinite;
+}
+
+.random_sphere44 {
+  top: 33%;
+  left: 53%;
+  animation: wander4 43s ease-in-out infinite;
+}
+
+.random_sphere45 {
+  bottom: 22%;
+  right: 12%;
+  animation: wander4 36s ease-in-out infinite;
+}
+
+.random_sphere46 {
+  top: 63%;
+  left: 18%;
+  animation: wander4 27s ease-in-out infinite;
+}
+
+.random_sphere47 {
+  bottom: 38%;
+  right: 7%;
+  animation: wander4 45s ease-in-out infinite;
+}
+
+.random_sphere48 {
+  top: 28%;
+  right: 18%;
+  animation: wander4 38s ease-in-out infinite;
+}
+
+.random_sphere49 {
+  bottom: 52%;
+  left: 48%;
+  animation: wander4 31s ease-in-out infinite;
+}
+
+.random_sphere410 {
+  top: 12%;
+  left: 83%;
+  animation: wander4 60s ease-in-out infinite;
+}
+
+/* Additional animations */
+@keyframes wander3 {
+  0% {
+    transform: translate(-50%, -25%);
+  }
+  10% {
+    transform: translate(-150%, -75%);
+  }
+  20% {
+    transform: translate(-250%, -125%);
+  }
+  30% {
+    transform: translate(-350%, -175%);
+  }
+  40% {
+    transform: translate(-450%, -225%);
+  }
+  50% {
+    transform: translate(-550%, -275%);
+  }
+  60% {
+    transform: translate(-450%, -225%);
+  }
+  70% {
+    transform: translate(-350%, -175%);
+  }
+  80% {
+    transform: translate(-250%, -125%);
+  }
+  90% {
+    transform: translate(-150%, -75%);
+  }
+  100% {
+    transform: translate(-50%, -25%);
+  }
+}
+
+@keyframes wander4 {
+  0% {
+    transform: translate(50%, 25%);
+  }
+  10% {
+    transform: translate(150%, 75%);
+  }
+  20% {
+    transform: translate(250%, 125%);
+  }
+  30% {
+    transform: translate(350%, 175%);
+  }
+  40% {
+    transform: translate(450%, 225%);
+  }
+  50% {
+    transform: translate(550%, 275%);
+  }
+  60% {
+    transform: translate(450%, 225%);
+  }
+  70% {
+    transform: translate(350%, 175%);
+  }
+  80% {
+    transform: translate(250%, 125%);
+  }
+  90% {
+    transform: translate(150%, 75%);
+  }
+  100% {
+    transform: translate(50%, 25%);
+  }
+}
+
+@keyframes wander2 {
+  0% {
+    transform: translate(-100%, -50%);
+  }
+  10% {
+    transform: translate(-200%, -100%);
+  }
+  20% {
+    transform: translate(-300%, -150%);
+  }
+  30% {
+    transform: translate(-400%, -200%);
+  }
+  40% {
+    transform: translate(-500%, -250%);
+  }
+  50% {
+    transform: translate(-600%, -300%);
+  }
+  60% {
+    transform: translate(-500%, -250%);
+  }
+  70% {
+    transform: translate(-400%, -200%);
+  }
+  80% {
+    transform: translate(-300%, -150%);
+  }
+  90% {
+    transform: translate(-200%, -100%);
+  }
+  100% {
+    transform: translate(-100%, -50%);
+  }
+}
+
+@keyframes wander1 {
+  0% {
+    transform: translate(100%, 50%);
+  }
+  10% {
+    transform: translate(200%, 100%);
+  }
+  20% {
+    transform: translate(300%, 150%);
+  }
+  30% {
+    transform: translate(400%, 200%);
+  }
+  40% {
+    transform: translate(500%, 250%);
+  }
+  50% {
+    transform: translate(600%, 300%);
+  }
+  60% {
+    transform: translate(500%, 250%);
+  }
+  70% {
+    transform: translate(400%, 200%);
+  }
+  80% {
+    transform: translate(300%, 150%);
+  }
+  90% {
+    transform: translate(200%, 100%);
+  }
+  100% {
+    transform: translate(100%, 50%);
+  }
+}
+
+.sphere_container::before {
+  content: "";
+  position: absolute;
+  /* Match all properties of the parent */
+  width: 130%;
+  height: 130%;
+  border-radius: inherit;
+  background-color: inherit;
+  box-shadow: inherit;
+
+  /* Position 2-3rem away from the parent */
+  left: 10rem; /* Adjust as needed */
+  top: 10rem;
+
+  /* Ensure it's behind the main sphere */
+  z-index: 1;
+  opacity: 0.7; /* Optional: make it slightly transparent */
+}
+.sphere_container::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  border-radius: inherit;
+  background-color: inherit;
+  box-shadow: inherit;
+
+  right: 8rem; /* Position on the opposite side */
+  bottom: 2;
+
+  z-index: -1;
+  opacity: 0.7;
+}
