@@ -16,12 +16,13 @@ const Home = () => {
 
   const components = useMemo(
     () => [
-      {
-        Component: withViewObserver(Services, {
-          animate: true,
-          paths: [`${dataPath}services.js`],
-        }),
-      },
+      // {
+      //   Component: withViewObserver(Services, {
+      //     animate: true,
+      //     // lazyload: true,
+      //     // paths: [`${dataPath}services.js`],
+      //   }),
+      // },
     ],
     [dataPath]
   );
