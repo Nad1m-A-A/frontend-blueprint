@@ -1,6 +1,6 @@
 import { withViewObserver } from "react-load-on-view";
 
-function Headings({ title, subTitle }) {
+function Headings({ title, subtitle }) {
   const markup = { __html: title };
   return (
     <div className="mx-auto pt-2">
@@ -10,7 +10,7 @@ function Headings({ title, subTitle }) {
           dangerouslySetInnerHTML={markup}
         ></h1>
         <h2 className="pt-4 font-thin text-[clamp(1rem,3vw,2rem)]">
-          {subTitle}
+          {subtitle}
         </h2>
       </div>
     </div>

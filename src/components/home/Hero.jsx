@@ -6,7 +6,7 @@ import Form from "@components/form/Form";
 import hero_img1 from "@images/home/home_hero (1).webp";
 
 const Hero = () => {
-  // const { data: headings } = loadData("home/headings.js", "headings");
+  const { data: headings } = loadData("home/headings.js", "headings");
   const { data: selectOptions } = loadData(
     "select-options.js",
     "selectOptions"
@@ -34,7 +34,7 @@ const Hero = () => {
         />
         <DarkOverlay />
         <div className="z-20 w-full visible_wrapper space-y-10 app_container">
-          {/* <Headings title={headings?.title} subTitle={headings?.subTitle} /> */}
+          <Headings title={headings?.title} subtitle={headings?.subtitle} />
           <div className="max-w-[30rem] mx-auto">
             <Form
               buttonStyle="text-center bg-accent-500 text-primary-100 hover:bg-accent-600"
