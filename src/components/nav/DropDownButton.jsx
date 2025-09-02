@@ -2,7 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function DropDownButton({ language, title, open }) {
   return (
-    <button className="flex items-center gap-0.5">
+    <button className="flex items-center gap-0.5 cursor-auto">
       <span className="nav_links_color">{title}</span>
       <span
         type="button"

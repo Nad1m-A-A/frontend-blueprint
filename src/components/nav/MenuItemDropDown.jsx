@@ -36,7 +36,7 @@ function MenuItemDropDown({ setMenuOpen, item, baseLinkClass, activeClass }) {
         <div
           onMouseEnter={() => setOpen(true)}
           onMouseLeave={() => setOpen(false)}
-          className={`cursor-pointer flex items-center gap-1 group`}
+          className={`flex items-center gap-1 group`}
         >
           <DropDownButton language={language} title={item.title} open={open} />
           <DropDown
