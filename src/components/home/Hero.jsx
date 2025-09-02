@@ -3,7 +3,7 @@ import { loadData } from "@utility/hooks/useDataLoader";
 import DarkOverlay from "@components/DarkOverlay";
 import Headings from "./Headings";
 import Form from "@components/form/Form";
-import hero_img1 from "@images/home/home_hero1.webp";
+import hero_img1 from "@images/home/home_hero (1).webp";
 
 const Hero = () => {
   const { data: headings } = loadData("home/headings.js", "headings");
