@@ -4,6 +4,8 @@ import DarkOverlay from "@components/DarkOverlay";
 import Headings from "./Headings";
 import Form from "@components/form/Form";
 import hero_img1 from "@images/home/home_hero (1).webp";
+import hero_img2 from "@images/home/home_hero (2).webp";
+import hero_img3 from "@images/home/home_hero (3).webp";
 
 const Hero = () => {
   const { data: headings } = loadData("home/headings.js", "headings");
@@ -11,11 +13,7 @@ const Hero = () => {
     "select-options.js",
     "selectOptions"
   );
-  const hero_images = useMemo(
-    // () => [hero_img1, hero_img2, hero_img3, hero_img4],
-    () => [hero_img1],
-    []
-  );
+  const hero_images = useMemo(() => [hero_img1, hero_img2, hero_img3], []);
 
   const [activeImgIndex, setActiveImgIndex] = useState(0);
   useEffect(() => {
@@ -27,10 +25,15 @@ const Hero = () => {
   return (
     <div className="zoom_out_w_container zoom_out_h_container">
       <div className="relative visible_wrapper min-h-[100vh] duration-1000 flex items-center shadow rounded-sm overflow-hidden">
-        <img
-          alt="Clinic Overview"
-          src={hero_images[activeImgIndex]}
-          className="absolute h-full w-full object-cover"
+        <div
+          className="absolute inset-0 duration-1000"
+          style={{
+            backgroundImage: `url("${hero_images[activeImgIndex]}")`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+          aria-hidden
         />
         <DarkOverlay />
         <div className="z-20 w-full visible_wrapper space-y-10 app_container">
