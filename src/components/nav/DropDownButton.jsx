@@ -1,12 +1,12 @@
 import { IoIosArrowForward } from "react-icons/io";
 
-function DropDownButton({ language, title, open  }) {
+function DropDownButton({ language, title, open }) {
   return (
     <button className="flex items-center gap-0.5">
-      <span className="text-primary-50">{title}</span>
+      <span className="nav_links_color">{title}</span>
       <span
         type="button"
-        className={`text-primary-50 group-hover:text-accent-500 transition-colors duration-200 ${
+        className={`nav_links_color group-hover:text-accent-500 transition-colors duration-200 ${
           language === "en" ? "mt-1" : ""
         }`}
       >

@@ -11,16 +11,16 @@ function DropDown({
 }) {
   return (
     <div
-      className={`absolute top-full ${
+      className={`absolute top-full pt-4 ${
         language === "ar" ? "right-0" : "left-0"
-      } bg-accent-500 shadow-md rounded-sm transition-all duration-300 z-50 ${
+      } transition-all duration-300 z-50 ${
         open ? "opacity-100 visible" : "opacity-0 invisible"
       }`}
     >
       <ul
         className={`flex flex-col ${
           language === "ar" ? "items-end" : "items-start"
-        } gap-2 min-w-[200px] py-2 `}
+        } bg-accent-500 shadow-md rounded-sm gap-2 min-w-[200px] py-2 `}
       >
         {item.children.map((child, i) => (
           <div

@@ -79,6 +79,10 @@
   .text_container_sm {
     @apply max-w-[30rem] mx-auto;
   }
+
+  .nav_links_color {
+    @apply text-primary-600 border-primary-600;
+  }
 }
 
 * {

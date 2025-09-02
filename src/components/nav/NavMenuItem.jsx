@@ -3,8 +3,8 @@ import MenuItemDropDown from "./MenuItemDropDown";
 
 function NavMenuItem({ item, setMenuOpen }) {
   const Icon = item.icon;
-  const baseLinkClass = "text-primary-50 duration-300 nav-underline";
-  const activeClass = "text-primary-50 border-b-[1px] border-primary-50";
+  const baseLinkClass = "nav_links_color duration-300 nav-underline";
+  const activeClass = "nav_links_color border-b-[1px] nav_links_color";
 
   if (item.children) {
     return (
